@@ -19,7 +19,9 @@ Referenced:
 - https://www.youtube.com/watch?v=BVkN3CCMg4A&t
 
 ON WINDOWS <br>
-Clone the AirSim repository
+
+### 3.2.1 Clone the AirSim repository
+
 ```
 git clone https://github.com/Microsoft/AirSim.git
 cd Desktop/AirSim/
@@ -27,6 +29,26 @@ build.cmd # this will give you an error
 
 oh oh... You need to run this command from x64 Native Tools Command Prompt for VS 2022.
 ```
+
+### 3.2.2 Install vscode 2022
+
+https://visualstudio.microsoft.com/ko/vs/community/
+- Desktop development with C++ - (from Workloads)
+- Windows XX SDK (latest version for your windows) - (from Onstallation details)
+- .NET Framework 4.8.1. SDK - (From Individual components) 
+
+VisualStudio 2022 > run without code > tools > command line > developer command line Prompt
+
+### 3.2.3 Setting up
+```
+cd Desktop/AirSim/
+build.cmd
+# need at least 50Gb free space
+```
+
+
+
+
 
 
 Navigating to UE5 Program File
