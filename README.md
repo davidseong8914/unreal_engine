@@ -12,9 +12,22 @@ https://www.unrealengine.com/en-US/download
 https://www.youtube.com/watch?v=Uf2p37seXGE
 https://github.com/metabotics-ai/MetaLidar
 #### 3.2 Airsim - ChatGPT's suggestion for LiDAR
+AirSim (Aerial Informatics and Robotics Simulation) is an open-source, cross platform simulator for robots.
+
 Referenced: 
 - https://microsoft.github.io/AirSim/build_windows/
 - https://www.youtube.com/watch?v=BVkN3CCMg4A&t
+
+ON WINDOWS <br>
+Clone the AirSim repository
+```
+git clone https://github.com/Microsoft/AirSim.git
+cd Desktop/AirSim/
+build.cmd # this will give you an error
+
+oh oh... You need to run this command from x64 Native Tools Command Prompt for VS 2022.
+```
+
 
 Navigating to UE5 Program File
 ```
